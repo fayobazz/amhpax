@@ -61,7 +61,7 @@ const Donate = () => {
           action="https://api.chapa.co/v1/hosted/pay"
           onSubmit={handleSubmit}
         >
-          <input type="hidden" name="public_key" value="CHAPUBK-R06LIVLN2LNzbypcNgEsB2GS0zKNuqBc" />
+          <input type="hidden" name="public_key" value="" />
           <input type="hidden" name="tx_ref" value={id} />
           <input
             type="number"
